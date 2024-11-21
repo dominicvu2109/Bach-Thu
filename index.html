@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To My Special Someone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To [Her Name], With Love ❤️</h1>
+        <p class="message">I've been wanting to tell you something for a while now...</p>
+        <p class="confession">You mean the world to me, and I can't imagine my life without you. <br><strong>I love you.</strong></p>
+        <p class="question">Will you be my girlfriend forever?</p>
+        <div class="buttons">
+            <button onclick="showMessage('Yes! ❤️')">Yes!</button>
+            <button onclick="showMessage('Of course! 😊')">Of course!</button>
+        </div>
+        <p id="response" class="response"></p>
+    </div>
+    <script>
+        function showMessage(answer) {
+            document.getElementById('response').textContent = answer;
+        }
+    </script>
+</body>
+</html>
