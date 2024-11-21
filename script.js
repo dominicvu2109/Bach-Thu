@@ -51,7 +51,7 @@ var confetti = new ConfettiGenerator(confettiSettings);
 confetti.render();
 
  let p = document.createElement("p");
- p.innerText = "Yayyyy 🎉 \nEm thích chị nhiều như vầy nè 🤏1000000x🐥";
+ p.innerText = "Yayyyy 🎉 \nEm thích chị nhiều như vầy nè 🤏10000000x🐥";
   p.style.fontSize = "2rem";
   p.style.fontWeight = "bold";
   p.style.textAlign = "center";
