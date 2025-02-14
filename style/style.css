@@ -224,9 +224,20 @@ body {
   margin: 10px 0 0;
 }
 
+
 .nine p {
-  font-size: 2rem;
-  font-weight: lighter;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #ff5e78;
+}
+.nine p:last-smile {
+    font-size: 30px;
+    animation: shake 0.5s infinite alternate;
+}
+@keyframes shake {
+    0% { transform: translateX(-3px); }
+    100% { transform: translateX(3px); }
 }
 
 #replay {
